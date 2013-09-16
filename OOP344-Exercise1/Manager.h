@@ -6,6 +6,7 @@ class Manager
       int totalHours;
    protected:
    public:
+	   //change private to public
       Manager();
 
       void getWorkerHours(Employee* emp);

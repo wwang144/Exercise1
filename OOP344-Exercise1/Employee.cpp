@@ -7,6 +7,7 @@ Employee::Employee(int id, char* name)
    {
    ID = id;
    Employee::name = new char[strlen(name)+1];
+   //string lengh +1
    strcpy(Employee::name, name);
    boss = 0;
    hours = 0;
@@ -53,3 +54,4 @@ int Employee::getID()
 char* Employee::getName(){
 	return name;
 }
+//add new function getName()

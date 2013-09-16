@@ -15,6 +15,7 @@ int main()
    mike.setBoss(&man);
    alex.setBoss(&man);
    sarah.setBoss(&man);
+   //change object to address
 
    dan.work(2);
    mike.work(2);
